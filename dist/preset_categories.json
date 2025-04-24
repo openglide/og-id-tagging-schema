@@ -204,6 +204,12 @@
             "golf/path"
         ]
     },
+    "category-free_flying": {
+        "icon": "maki-roadblock",
+        "members": [
+            "barrier"
+        ]
+    },
     "category-building": {
         "icon": "maki-building",
         "members": [
