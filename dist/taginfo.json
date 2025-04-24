@@ -9820,6 +9820,24 @@
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/golf.svg"
         },
         {
+            "key": "free_flying:takeoff",
+            "value": "yes",
+            "description": "🄿 Flee Flight: Launch, 🄵🅅 Takeoff: `yes`",
+            "object_types": [
+                "node",
+                "area"
+            ]
+        },
+        {
+            "key": "free_flying:landing",
+            "value": "yes",
+            "description": "🄿 Free Flight: Landing Zone",
+            "object_types": [
+                "node",
+                "area"
+            ]
+        },
+        {
             "key": "entrance",
             "value": "staircase",
             "description": "🄿 Staircase Entrance, 🄵🅅 Type: Staircase",
@@ -15102,6 +15120,10 @@
             "description": "🄵 Windings"
         },
         {
+            "key": "wind_speed",
+            "description": "🄵 Wind speed"
+        },
+        {
             "key": "wikipedia",
             "description": "🄵 Wikipedia, 🄵 Wikidata"
         },
@@ -18991,7 +19013,7 @@
         },
         {
             "key": "direction",
-            "description": "🄵 Direction Affected, 🄵 Direction (Degrees Clockwise), 🄵 Direction"
+            "description": "🄵 Direction Affected, 🄵 Direction (Degrees Clockwise), 🄵 Direction, 🄵 Flyable wind direction"
         },
         {
             "key": "direction",
@@ -20942,6 +20964,10 @@
             "description": "🄵🅅 Autotransformer: No"
         },
         {
+            "key": "wind_speed:ideal",
+            "description": "🄵 Ideal wind speed"
+        },
+        {
             "key": "website:menu",
             "description": "🄵 Menu Link"
         },
@@ -22797,6 +22823,208 @@
             "description": "🄵🅅 Fuel Types: AdBlue / AUS 32 (sold in canisters)"
         },
         {
+            "key": "free_flying:unsafe",
+            "description": "🄵 Free flying unsafe"
+        },
+        {
+            "key": "free_flying:unsafe",
+            "value": "yes",
+            "description": "🄵🅅 Free flying unsafe: `yes`"
+        },
+        {
+            "key": "free_flying:unsafe",
+            "value": "no",
+            "description": "🄵🅅 Free flying unsafe: `no`"
+        },
+        {
+            "key": "free_flying:unsafe",
+            "value": "discouraged",
+            "description": "🄵🅅 Free flying unsafe: `discouraged`"
+        },
+        {
+            "key": "free_flying:training",
+            "description": "🄵 Training"
+        },
+        {
+            "key": "free_flying:training",
+            "value": "yes",
+            "description": "🄵🅅 Training: `yes`"
+        },
+        {
+            "key": "free_flying:training",
+            "value": "no",
+            "description": "🄵🅅 Training: `no`"
+        },
+        {
+            "key": "free_flying:training",
+            "value": "permissive",
+            "description": "🄵🅅 Training: `permissive`"
+        },
+        {
+            "key": "free_flying:towing",
+            "description": "🄵 Free flying towing, 🄵 Speedflying"
+        },
+        {
+            "key": "free_flying:towing",
+            "value": "yes",
+            "description": "🄵🅅 Free flying towing: `yes`, 🄵🅅 Speedflying: `yes`"
+        },
+        {
+            "key": "free_flying:towing",
+            "value": "no",
+            "description": "🄵🅅 Free flying towing: `no`, 🄵🅅 Speedflying: `no`"
+        },
+        {
+            "key": "free_flying:towing",
+            "value": "discouraged",
+            "description": "🄵🅅 Free flying towing: `discouraged`, 🄵🅅 Speedflying: `discouraged`"
+        },
+        {
+            "key": "free_flying:takeoff",
+            "description": "🄵 Takeoff"
+        },
+        {
+            "key": "free_flying:takeoff",
+            "value": "no",
+            "description": "🄵🅅 Takeoff: `no`"
+        },
+        {
+            "key": "free_flying:takeoff",
+            "value": "discouraged",
+            "description": "🄵🅅 Takeoff: `discouraged`"
+        },
+        {
+            "key": "free_flying:rigid",
+            "description": "🄵 Rigid hanggliders"
+        },
+        {
+            "key": "free_flying:rigid",
+            "value": "yes",
+            "description": "🄵🅅 Rigid hanggliders: `yes`"
+        },
+        {
+            "key": "free_flying:rigid",
+            "value": "no",
+            "description": "🄵🅅 Rigid hanggliders: `no`"
+        },
+        {
+            "key": "free_flying:rigid",
+            "value": "discouraged",
+            "description": "🄵🅅 Rigid hanggliders: `discouraged`"
+        },
+        {
+            "key": "free_flying:ridge",
+            "description": "🄵 Ridge soaring"
+        },
+        {
+            "key": "free_flying:ridge",
+            "value": "yes",
+            "description": "🄵🅅 Ridge soaring: `yes`"
+        },
+        {
+            "key": "free_flying:ridge",
+            "value": "no",
+            "description": "🄵🅅 Ridge soaring: `no`"
+        },
+        {
+            "key": "free_flying:ridge",
+            "value": "potential",
+            "description": "🄵🅅 Ridge soaring: `potential`"
+        },
+        {
+            "key": "free_flying:paragliding",
+            "description": "🄵 Paragliders allowed"
+        },
+        {
+            "key": "free_flying:paragliding",
+            "value": "yes",
+            "description": "🄵🅅 Paragliders allowed: `yes`"
+        },
+        {
+            "key": "free_flying:paragliding",
+            "value": "no",
+            "description": "🄵🅅 Paragliders allowed: `no`"
+        },
+        {
+            "key": "free_flying:paragliding",
+            "value": "discouraged",
+            "description": "🄵🅅 Paragliders allowed: `discouraged`"
+        },
+        {
+            "key": "free_flying:packing",
+            "description": "🄵 Packing"
+        },
+        {
+            "key": "free_flying:packing",
+            "value": "yes",
+            "description": "🄵🅅 Packing: `yes`"
+        },
+        {
+            "key": "free_flying:packing",
+            "value": "no",
+            "description": "🄵🅅 Packing: `no`"
+        },
+        {
+            "key": "free_flying:official",
+            "description": "🄵 Official site"
+        },
+        {
+            "key": "free_flying:official",
+            "value": "yes",
+            "description": "🄵🅅 Official site: `yes`"
+        },
+        {
+            "key": "free_flying:official",
+            "value": "no",
+            "description": "🄵🅅 Official site: `no`"
+        },
+        {
+            "key": "free_flying:landing_zone",
+            "description": "🄵 Landing"
+        },
+        {
+            "key": "free_flying:landing_zone",
+            "value": "yes",
+            "description": "🄵🅅 Landing: `yes`"
+        },
+        {
+            "key": "free_flying:landing_zone",
+            "value": "no",
+            "description": "🄵🅅 Landing: `no`"
+        },
+        {
+            "key": "free_flying:landing_zone",
+            "value": "discouraged",
+            "description": "🄵🅅 Landing: `discouraged`"
+        },
+        {
+            "key": "free_flying:hanggliding",
+            "description": "🄵 Hanggliders allowed"
+        },
+        {
+            "key": "free_flying:hanggliding",
+            "value": "yes",
+            "description": "🄵🅅 Hanggliders allowed: `yes`"
+        },
+        {
+            "key": "free_flying:hanggliding",
+            "value": "no",
+            "description": "🄵🅅 Hanggliders allowed: `no`"
+        },
+        {
+            "key": "free_flying:hanggliding",
+            "value": "discouraged",
+            "description": "🄵🅅 Hanggliders allowed: `discouraged`"
+        },
+        {
+            "key": "free_flying:guest-guidelines",
+            "description": "🄵 Guest guidelines"
+        },
+        {
+            "key": "direction:ideal",
+            "description": "🄵 Ideal flyable wind direction"
+        },
+        {
             "key": "flag:wikidata",
             "description": "🄵 Flag Wikidata"
         },
@@ -22861,6 +23089,10 @@
         {
             "key": "fhrs:id",
             "description": "🄵 FHRS ID"
+        },
+        {
+            "key": "emergency:phone",
+            "description": "🄵 Emergency phone number"
         },
         {
             "key": "door:width",

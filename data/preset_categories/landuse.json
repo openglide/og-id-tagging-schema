@@ -1,6 +1,6 @@
 {
     "icon": "maki-landuse",
-    "name": "Land Use Features!!",
+    "name": "Land Use Features",
     "members": [
         "landuse/residential",
         "landuse/industrial",

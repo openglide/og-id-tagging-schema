@@ -8,3 +8,4 @@ npm-debug.log
 transifex.auth
 interim
 .direnv/
+.env

@@ -205,9 +205,10 @@
         ]
     },
     "category-free_flying": {
-        "icon": "maki-roadblock",
+        "icon": "maki-landuse",
         "members": [
-            "barrier"
+            "free_flying/takeoff",
+            "free_flying/landing_zone"
         ]
     },
     "category-building": {

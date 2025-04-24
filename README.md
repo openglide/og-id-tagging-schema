@@ -1,6 +1,7 @@
-[![test](https://github.com/openstreetmap/id-tagging-schema/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/openstreetmap/id-tagging-schema/actions/workflows/test.yml) [![npm version](https://badge.fury.io/js/%40openstreetmap%2Fid-tagging-schema.svg)](https://badge.fury.io/js/%40openstreetmap%2Fid-tagging-schema)
-
 # iD Tagging Schema
+
+**This is a custom distribution of id-tagging-schema for openglide. This distribution is to be used with og-id-editor, the custom build of open street maps iD editor for free flight editing.**
+
 
 This is the directory of OpenStreetMap tagging data used by the [iD editor](https://github.com/openstreetmap/iD).
 It includes presets, fields, deprecations, and more.

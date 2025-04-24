@@ -1,7 +1,8 @@
 {
-    "icon": "maki-roadblock",
-    "name": "Free Flying",
+    "icon": "maki-landuse",
+    "name": "Free Flying: Paragliding and Hanggliding",
     "members": [
-        "barrier"
+        "free_flying/takeoff",
+        "free_flying/landing_zone"
     ]
 }
