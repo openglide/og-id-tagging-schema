@@ -44,9 +44,6 @@
                 "category-golf": {
                     "name": "Golf Features"
                 },
-                "category-free_flying": {
-                    "name": "Free Flying: Paragliding and Hanggliding"
-                },
                 "category-building": {
                     "name": "Building Features"
                 },
@@ -58,9 +55,6 @@
                 "windings": {
                     "label": "Windings",
                     "placeholder": "1, 2, 3..."
-                },
-                "wind_speed": {
-                    "label": "Wind speed"
                 },
                 "wikipedia": {
                     "label": "Wikipedia"
@@ -672,6 +666,7 @@
                 },
                 "source": {
                     "label": "Sources",
+                    "terms": "reference",
                     "options": {
                         "survey": "Survey",
                         "local knowledge": "Local Knowledge",
@@ -3395,9 +3390,6 @@
                         "no": "No"
                     }
                 },
-                "wind_speed/ideal": {
-                    "label": "Ideal wind speed"
-                },
                 "website/menu": {
                     "label": "Menu Link",
                     "terms": "online menu,menu uri,menu url,website menu,menu",
@@ -4281,211 +4273,6 @@
                     }
                 },
                 "fuel/fuel_multi-RU": {},
-                "free_flying/unsafe": {
-                    "label": "Free flying unsafe",
-                    "options": {
-                        "yes": {
-                            "title": "Yes",
-                            "description": "This spot is unsafe and should be avoided"
-                        },
-                        "no": {
-                            "title": "No",
-                            "description": "This spot is not known to be safe"
-                        },
-                        "discouraged": {
-                            "title": "Discouraged",
-                            "description": "This spot is known to have issues that can affect safety in a significant way or is known to have higher crash rates. If possible it should be avoided."
-                        }
-                    }
-                },
-                "free_flying/training": {
-                    "label": "Training",
-                    "options": {
-                        "yes": {
-                            "title": "Yes",
-                            "description": "Training is allowed, and the site is suitable"
-                        },
-                        "no": {
-                            "title": "No",
-                            "description": "Training is forbidden, or the site is not suitable or dangerous"
-                        },
-                        "permissive": {
-                            "title": "Permissive",
-                            "description": "Training is possible, but might be restricted to certain times or only with special permission"
-                        }
-                    }
-                },
-                "free_flying/towing": {
-                    "label": "Free flying towing",
-                    "options": {
-                        "yes": {
-                            "title": "Yes",
-                            "description": "Towing is well supported and legal"
-                        },
-                        "no": {
-                            "title": "No",
-                            "description": "Towing is illegal or the site is unsuitable or unsafe"
-                        },
-                        "discouraged": {
-                            "title": "Discouraged",
-                            "description": "Towing is possible, but there are issues around access, suitability or safety"
-                        }
-                    }
-                },
-                "free_flying/takeoff": {
-                    "label": "Takeoff",
-                    "options": {
-                        "yes": {
-                            "title": "Yes",
-                            "description": "Launching is legal and the site is well suited"
-                        },
-                        "no": {
-                            "title": "No",
-                            "description": "Launching is illegal, or the site is unsuitable or unsafe"
-                        },
-                        "discouraged": {
-                            "title": "Discouraged",
-                            "description": "Launching might be possible, but there are issues around access, suitability or safety"
-                        }
-                    }
-                },
-                "free_flying/speedflying": {
-                    "label": "Speedflying",
-                    "options": {
-                        "yes": {
-                            "title": "Yes",
-                            "description": "Speedflying is allowed, and the site is suitable"
-                        },
-                        "no": {
-                            "title": "No",
-                            "description": "Speedflying is not allowed, or the site is not suitable"
-                        },
-                        "discouraged": {
-                            "title": "Discouraged",
-                            "description": "Speedflying might be possible, but there are issues"
-                        }
-                    }
-                },
-                "free_flying/rigid": {
-                    "label": "Rigid hanggliders",
-                    "options": {
-                        "yes": {
-                            "title": "Yes",
-                            "description": "Site is legal and suitable for rigid hanggliders"
-                        },
-                        "no": {
-                            "title": "No",
-                            "description": "Site is illegal or not suitable for rigid hanggliders"
-                        },
-                        "discouraged": {
-                            "title": "Discouraged",
-                            "description": "Site might be usable for rigid hanggliders, but there are issues"
-                        }
-                    }
-                },
-                "free_flying/ridge": {
-                    "label": "Ridge soaring",
-                    "options": {
-                        "yes": {
-                            "title": "Yes",
-                            "description": "This site has ridge soaring conditions often or is otherwise used mostly for ridge soaring"
-                        },
-                        "no": {
-                            "title": "No",
-                            "description": "This site rarely has ridge soaring conditions"
-                        },
-                        "potential": {
-                            "title": "Potential",
-                            "description": "This site has ridge soaring conditions sometimes but is mostly used in other ways"
-                        }
-                    }
-                },
-                "free_flying/paragliding": {
-                    "label": "Paragliders allowed",
-                    "options": {
-                        "yes": {
-                            "title": "yes",
-                            "description": "Site is legal and suitable for paragliders"
-                        },
-                        "no": {
-                            "title": "no",
-                            "description": "Site is illegal or not suitable for paragliders"
-                        },
-                        "discouraged": {
-                            "title": "Discouraged",
-                            "description": "Site might be usable for paragliders, but there are issues"
-                        }
-                    }
-                },
-                "free_flying/packing": {
-                    "label": "Packing",
-                    "options": {
-                        "yes": {
-                            "title": "Yes",
-                            "description": "Packing allowed / encouraged"
-                        },
-                        "no": {
-                            "title": "No",
-                            "description": "Packing diallowed / discouraged"
-                        }
-                    }
-                },
-                "free_flying/official": {
-                    "label": "Official site",
-                    "options": {
-                        "yes": {
-                            "title": "Yes",
-                            "description": "This site legally allows pilots to use it and is maintained."
-                        },
-                        "no": {
-                            "title": "No",
-                            "description": "This site is either not maintained or not specifically legally approved (might still be legal depending on local laws)"
-                        }
-                    }
-                },
-                "free_flying/landing": {
-                    "label": "Landing",
-                    "options": {
-                        "yes": {
-                            "title": "Yes",
-                            "description": "Landing is legal and the site is well suited"
-                        },
-                        "no": {
-                            "title": "No",
-                            "description": "Landing is illegal, or the site is unsuitable or unsafe"
-                        },
-                        "discouraged": {
-                            "title": "Discouraged",
-                            "description": "Landing might be possible, but there are issues around access, suitability or safety"
-                        }
-                    }
-                },
-                "free_flying/hanggliding": {
-                    "label": "Hanggliders allowed",
-                    "options": {
-                        "yes": {
-                            "title": "yes",
-                            "description": "Site is legal and suitable for hanggliders"
-                        },
-                        "no": {
-                            "title": "no",
-                            "description": "Site is illegal or not suitable for hanggliders"
-                        },
-                        "discouraged": {
-                            "title": "Discouraged",
-                            "description": "Site might be usable for hanggliders, but there are issues"
-                        }
-                    }
-                },
-                "free_flying/guest-guidelines": {
-                    "label": "Guest guidelines"
-                },
-                "free_flying/direction_ideal": {
-                    "label": "Ideal flyable wind direction"
-                },
-                "free_flying/direction": {
-                    "label": "Flyable wind direction"
-                },
                 "flag/wikidata": {
                     "label": "Flag Wikidata"
                 },
@@ -4523,9 +4310,6 @@
                     "label": "FHRS ID",
                     "terms": "food hygiene rating scheme,food hygiene rating system,food standards agency"
                 },
-                "emergency/phone": {
-                    "label": "Emergency phone number"
-                },
                 "door/width": {
                     "label": "Door Width (Meters)"
                 },
@@ -4546,9 +4330,6 @@
                 },
                 "disused/amenity": {
                     "label": "Type"
-                },
-                "direction/ideal": {
-                    "label": "Ideal flyable wind direction"
                 },
                 "diplomatic/services": {
                     "label": "Services"
@@ -6013,8 +5794,7 @@
                     "name": "Shop (Unspecified Type)"
                 },
                 "shop/vacant": {
-                    "name": "Vacant Shop",
-                    "terms": "empty"
+                    "name": "Vacant Shop"
                 },
                 "shop/hobby": {
                     "name": "Hobby Shop"
@@ -8690,7 +8470,6 @@
                     "name": "Cycle & Foot Crossing With Pedestrian Signals"
                 },
                 "highway/path/crossing/marked": {},
-                "highway/path/crossing/informal": {},
                 "highway/footway/traffic_island": {
                     "name": "Refuge Island",
                     "aliases": "Crosswalk Island\nTraffic Island\nPedestrian Island",
@@ -8729,7 +8508,6 @@
                 },
                 "highway/footway/crossing/zebra": {},
                 "highway/footway/crossing/marked": {},
-                "highway/footway/crossing/informal": {},
                 "highway/cycleway/traffic_island_shared": {
                     "name": "Cycle & Foot Refuge Island",
                     "aliases": "Crosswalk Island\nTraffic Island\nPedestrian Island",
@@ -8781,9 +8559,6 @@
                 },
                 "highway/crossing/zebra": {},
                 "highway/crossing/marked": {},
-                "highway/crossing/informal": {
-                    "name": "Informal Crossing"
-                },
                 "healthcare/speech_therapist": {
                     "name": "Speech Therapist",
                     "terms": "speech,therapist,therapy,voice"
@@ -8925,14 +8700,6 @@
                     "name": "Sand Trap",
                     "aliases": "Bunker",
                     "terms": "hazard"
-                },
-                "free_flying/takeoff": {
-                    "name": "Flee Flight: Launch",
-                    "terms": "paragliding,hanggliding,launch,takeoff,gliding"
-                },
-                "free_flying/landing_zone": {
-                    "name": "Free Flight: Landing Zone",
-                    "terms": "paragliding,hanggliding,gliding,landing zone,landing"
                 },
                 "entrance/staircase": {
                     "name": "Staircase Entrance",

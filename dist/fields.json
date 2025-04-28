@@ -4,10 +4,6 @@
         "type": "number",
         "minValue": 1
     },
-    "wind_speed": {
-        "key": "wind_speed",
-        "type": "text"
-    },
     "wikipedia": {
         "key": "wikipedia",
         "keys": [
@@ -780,7 +776,7 @@
     "source": {
         "key": "source",
         "type": "semiCombo",
-        "usage": "changeset",
+        "universal": true,
         "snake_case": false,
         "caseSensitive": true,
         "autoSuggestions": false,
@@ -4133,14 +4129,12 @@
     "address": {
         "type": "address",
         "key": "addr",
-        "reference": {
-            "key": "addr:*"
-        },
         "keys": [
             "addr:block_number",
             "addr:city",
             "addr:block_number",
             "addr:conscriptionnumber",
+            "addr:county",
             "addr:country",
             "addr:county",
             "addr:district",
@@ -4244,10 +4238,6 @@
             "yes",
             "no"
         ]
-    },
-    "wind_speed/ideal": {
-        "key": "wind_speed:ideal",
-        "type": "text"
     },
     "website/menu": {
         "key": "website:menu",
@@ -5646,154 +5636,6 @@
             ]
         }
     },
-    "free_flying/unsafe": {
-        "key": "free_flying:unsafe",
-        "type": "combo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "yes",
-            "no",
-            "discouraged"
-        ]
-    },
-    "free_flying/training": {
-        "key": "free_flying:training",
-        "type": "combo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "yes",
-            "no",
-            "permissive"
-        ]
-    },
-    "free_flying/towing": {
-        "key": "free_flying:towing",
-        "type": "combo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "yes",
-            "no",
-            "discouraged"
-        ]
-    },
-    "free_flying/takeoff": {
-        "key": "free_flying:takeoff",
-        "type": "combo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "yes",
-            "no",
-            "discouraged"
-        ]
-    },
-    "free_flying/speedflying": {
-        "key": "free_flying:towing",
-        "type": "combo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "yes",
-            "no",
-            "discouraged"
-        ]
-    },
-    "free_flying/rigid": {
-        "key": "free_flying:rigid",
-        "type": "combo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "yes",
-            "no",
-            "discouraged"
-        ]
-    },
-    "free_flying/ridge": {
-        "key": "free_flying:ridge",
-        "type": "combo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "yes",
-            "no",
-            "potential"
-        ]
-    },
-    "free_flying/paragliding": {
-        "key": "free_flying:paragliding",
-        "type": "combo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "yes",
-            "no",
-            "discouraged"
-        ]
-    },
-    "free_flying/packing": {
-        "key": "free_flying:packing",
-        "type": "combo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "yes",
-            "no"
-        ]
-    },
-    "free_flying/official": {
-        "key": "free_flying:official",
-        "type": "combo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "yes",
-            "no"
-        ]
-    },
-    "free_flying/landing": {
-        "key": "free_flying:landing_zone",
-        "type": "combo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "yes",
-            "no",
-            "discouraged"
-        ]
-    },
-    "free_flying/hanggliding": {
-        "key": "free_flying:hanggliding",
-        "type": "combo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "yes",
-            "no",
-            "discouraged"
-        ]
-    },
-    "free_flying/guest-guidelines": {
-        "key": "free_flying:guest-guidelines",
-        "type": "text",
-        "autoSuggestions": false,
-        "customValues": false
-    },
-    "free_flying/direction_ideal": {
-        "key": "direction:ideal",
-        "type": "text",
-        "autoSuggestions": false,
-        "customValues": false
-    },
-    "free_flying/direction": {
-        "key": "direction",
-        "type": "text",
-        "autoSuggestions": false,
-        "customValues": false
-    },
     "flag/wikidata": {
         "key": "flag:wikidata",
         "keys": [
@@ -5856,10 +5698,6 @@
             ]
         }
     },
-    "emergency/phone": {
-        "key": "emergency:phone",
-        "type": "text"
-    },
     "door/width": {
         "key": "door:width",
         "minValue": 0,
@@ -5891,12 +5729,6 @@
     "disused/amenity": {
         "key": "disused:amenity",
         "type": "typeCombo"
-    },
-    "direction/ideal": {
-        "key": "direction:ideal",
-        "type": "text",
-        "autoSuggestions": false,
-        "customValues": false
     },
     "diplomatic/services": {
         "key": "diplomatic:services:",

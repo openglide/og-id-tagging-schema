@@ -18248,30 +18248,6 @@
         "name": "{highway/path/crossing/uncontrolled}",
         "searchable": false
     },
-    "highway/path/crossing/informal": {
-        "icon": "temaki-pedestrian",
-        "fields": [
-            "crossing",
-            "surface"
-        ],
-        "moreFields": [
-            "{@templates/crossing/geometry_way_more}"
-        ],
-        "geometry": [
-            "line"
-        ],
-        "tags": {
-            "highway": "path",
-            "path": "crossing",
-            "crossing": "informal"
-        },
-        "reference": {
-            "key": "crossing",
-            "value": "informal"
-        },
-        "name": "{highway/crossing/informal}",
-        "searchable": false
-    },
     "highway/footway/traffic_island": {
         "icon": "temaki-pedestrian",
         "geometry": [
@@ -18553,30 +18529,6 @@
             "value": "marked"
         },
         "name": "{highway/footway/crossing/uncontrolled}",
-        "searchable": false
-    },
-    "highway/footway/crossing/informal": {
-        "icon": "temaki-pedestrian",
-        "fields": [
-            "crossing",
-            "surface"
-        ],
-        "moreFields": [
-            "{@templates/crossing/geometry_way_more}"
-        ],
-        "geometry": [
-            "line"
-        ],
-        "tags": {
-            "highway": "footway",
-            "footway": "crossing",
-            "crossing": "informal"
-        },
-        "reference": {
-            "key": "crossing",
-            "value": "informal"
-        },
-        "name": "{highway/crossing/informal}",
         "searchable": false
     },
     "highway/cycleway/traffic_island_shared": {
@@ -19019,23 +18971,6 @@
             "value": "marked"
         },
         "name": "{highway/crossing/uncontrolled}",
-        "searchable": false
-    },
-    "highway/crossing/informal": {
-        "icon": "temaki-pedestrian",
-        "fields": [
-            "crossing"
-        ],
-        "geometry": [
-            "vertex"
-        ],
-        "tags": {
-            "crossing": "informal"
-        },
-        "reference": {
-            "key": "crossing",
-            "value": "informal"
-        },
         "searchable": false
     },
     "healthcare/speech_therapist": {
@@ -19536,92 +19471,6 @@
         "tags": {
             "golf": "bunker"
         }
-    },
-    "free_flying/takeoff": {
-        "icon": "airfield/airfield.svg",
-        "geometry": [
-            "point",
-            "area"
-        ],
-        "tags": {
-            "sport": "free_flying",
-            "free_flying:takeoff": "yes"
-        },
-        "fields": [
-            "name",
-            "description",
-            "surface",
-            "operator",
-            "website",
-            "frequency",
-            "wind_speed",
-            "wind_speed/ideal",
-            "free_flying/landing",
-            "free_flying/takeoff"
-        ],
-        "moreFields": [
-            "surface",
-            "emergency/phone",
-            "opening_hours",
-            "direction/ideal",
-            "free_flying/paragliding",
-            "free_flying/hanggliding",
-            "free_flying/direction",
-            "free_flying/direction_ideal",
-            "free_flying/towing",
-            "free_flying/official",
-            "free_flying/unsafe",
-            "free_flying/ridge",
-            "free_flying/rigid",
-            "free_flying/speedflying",
-            "free_flying/guest-guidelines",
-            "free_flying/packing",
-            "free_flying/training",
-            "free_flying/direction_ideal"
-        ]
-    },
-    "free_flying/landing_zone": {
-        "icon": "airfield/airfield.svg",
-        "geometry": [
-            "point",
-            "area"
-        ],
-        "tags": {
-            "sport": "free_flying",
-            "free_flying:landing": "yes"
-        },
-        "fields": [
-            "name",
-            "description",
-            "surface",
-            "operator",
-            "website",
-            "frequency",
-            "wind_speed",
-            "wind_speed/ideal",
-            "free_flying/landing",
-            "free_flying/takeoff"
-        ],
-        "moreFields": [
-            "surface",
-            "emergency/phone",
-            "opening_hours",
-            "direction/ideal",
-            "free_flying/paragliding",
-            "free_flying/hanggliding",
-            "free_flying/direction",
-            "free_flying/direction_ideal",
-            "free_flying/towing",
-            "free_flying/official",
-            "free_flying/unsafe",
-            "free_flying/ridge",
-            "free_flying/rigid",
-            "free_flying/speedflying",
-            "free_flying/guest-guidelines",
-            "free_flying/packing",
-            "free_flying/training",
-            "free_flying/direction_ideal"
-        ]
     },
     "entrance/staircase": {
         "icon": "maki-entrance-alt1",
@@ -23704,8 +23553,8 @@
             "recycling_type": "container"
         },
         "reference": {
-            "key": "recycling_type",
-            "value": "container"
+            "key": "amenity",
+            "value": "recycling"
         }
     },
     "amenity/recycling_centre": {
@@ -23736,7 +23585,7 @@
         },
         "reference": {
             "key": "recycling_type",
-            "value": "centre"
+            "value": "*"
         }
     },
     "amenity/ranger_station": {
@@ -26042,8 +25891,7 @@
         "moreFields": [
             "{@templates/poi}",
             "address",
-            "covered",
-            "ref"
+            "covered"
         ],
         "geometry": [
             "point",

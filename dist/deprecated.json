@@ -1626,6 +1626,14 @@
     },
     {
         "old": {
+            "highway": "ford"
+        },
+        "replace": {
+            "ford": "*"
+        }
+    },
+    {
+        "old": {
             "highway": "path",
             "ladder": "yes"
         },

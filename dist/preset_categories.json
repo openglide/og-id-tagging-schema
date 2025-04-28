@@ -204,13 +204,6 @@
             "golf/path"
         ]
     },
-    "category-free_flying": {
-        "icon": "maki-landuse",
-        "members": [
-            "free_flying/takeoff",
-            "free_flying/landing_zone"
-        ]
-    },
     "category-building": {
         "icon": "maki-building",
         "members": [
