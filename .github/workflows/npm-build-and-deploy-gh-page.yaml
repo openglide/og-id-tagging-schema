@@ -2,7 +2,7 @@ name: Deploy dist dir to github pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["develop"]
+    branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -33,12 +33,13 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
+      - run: npm install
       - run: npm run build --if-present
       - run: npm run dist
       - name: Upload dist dir
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/
+            path: ./
   # Deployment job
   deploy:
     environment:
@@ -49,5 +50,5 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4;w
+        uses: actions/deploy-pages@v4
 
