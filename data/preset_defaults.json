@@ -1,15 +1,6 @@
 {
     "area": [
-        "category-landuse",
-        "category-building",
-        "category-water",
-        "category-natural",
-        "leisure/park",
-        "amenity/hospital",
-        "amenity/place_of_worship",
-        "amenity/cafe",
-        "amenity/restaurant",
-        "area"
+        "category-free_flying"
     ],
     "line": [
         "category-road_major",
@@ -23,17 +14,7 @@
         "line"
     ],
     "point": [
-        "category-natural",
-        "leisure/park",
-        "amenity/hospital",
-        "amenity/place_of_worship",
-        "amenity/cafe",
-        "amenity/restaurant",
-        "amenity/fast_food",
-        "amenity/bar",
-        "amenity/bank",
-        "shop/supermarket",
-        "point"
+        "category-free_flying"
     ],
     "vertex": [
         "highway/crossing/traffic_signals",
@@ -49,14 +30,6 @@
         "point"
     ],
     "relation": [
-        "category-route",
-        "category-restriction",
-        "public_transport/stop_area",
-        "type/boundary",
-        "type/waterway",
-        "type/multipolygon",
-        "type/enforcement",
-        "type/site",
-        "relation"
+        "category-free_flying"
     ]
 }

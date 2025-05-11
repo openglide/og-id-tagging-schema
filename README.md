@@ -9,13 +9,6 @@
 
 This project defines a custom tagging schema for Open Street Map's iD editor. The iD editor is a general-purpose open street map editor which has far more features than what is necessary for editing OSM free flight data. This schema helps editors who are unfamiliar with OSM focus on free-flight-only features and tags.
 
-## Changes from upstream
-
-The following are the known changes from upstream. One priority for this project is to retain as few differences with upstream as possible, so they can be kept in sync without conflict.
-
-- Primary data directory changed: `data` -> `og_data`
-- To account for the above change: `scripts/build.js` and `scripts/dist.js` have `inDirectory` set to `og_data`.
-
 ## Development
 
 Begin by running `npm install` to install dependencies.

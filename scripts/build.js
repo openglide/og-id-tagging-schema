@@ -1,5 +1,5 @@
-import schemaBuilder from '@ideditor/schema-builder';
+import schemaBuilder from "@ideditor/schema-builder";
 
 schemaBuilder.buildDev({
-    inDirectory: "./og_data"
+  inDirectory: "./data",
 });

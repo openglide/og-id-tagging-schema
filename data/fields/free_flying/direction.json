@@ -1,0 +1,7 @@
+{
+    "key": "direction",
+    "type": "text",
+    "label": "Flyable wind direction",
+    "placeholder": "Wind direction required to be flyable",
+    "autoSuggestions": false
+}

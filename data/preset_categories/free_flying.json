@@ -1,0 +1,9 @@
+{
+    "icon": "maki-landuse",
+    "name": "Free Flying: Paragliding and Hanggliding",
+    "members": [
+        "free_flying/site",
+        "free_flying/takeoff",
+        "free_flying/landing_zone"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "icon": "iD-relation",
+    "fields": [
+        "name"
+    ],
+    "geometry": [
+        "relation"
+    ],
+    "tags": {
+        "type": "site",
+        "site": "sport",
+        "sport": "free_flying"
+    },
+    "name": "Free flying site"
+}
